@@ -216,7 +216,7 @@ let result = () => {
   document.querySelector("body").innerHTML = `<div class="result">
   <h1>You have been cleared this exam</h1>
   <h2>Your score is ${right} out of ${questionItem.length}</h2>
-  <h3>Your correct wrong are/is ${wrong} and you have not attempt ${
+  <h3>Your wrong answer are/is ${wrong} and you have not attempt ${
     questionItem.length - (right + wrong)
   } question </h3>
   </div>`;
