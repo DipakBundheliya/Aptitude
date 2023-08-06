@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%; 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    /* background-color:#120000; */
+}
+
+/* Header part */
+.head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255 206 193); 
+    padding: 30px 10px;
+    width: 80%; 
+    margin: auto;
+}
+.instruct{
+    margin: 0;
+}
+.alert{
+    color: #5f0101;
+    
+}
+
+/* Container part */
+.container{
+     
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+}
+.box{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+
+}
+.question{
+    margin: 10px;
+    font-size: 20px;
+}
+.row{
+    margin: 15px 10px;
+}
+
+
+.btn{
+    
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(231, 80, 80);
+    border: none; 
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+}
+
+/* set final page */
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
